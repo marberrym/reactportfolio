@@ -1,0 +1,8 @@
+.tagCloud {
+    width: 90%;
+    height: 20em;
+}
+
+.tagCloud > div {
+	transition: 1.4s;
+}

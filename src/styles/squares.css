@@ -1,0 +1,76 @@
+.backgroundSQ {
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translateY(-50%) translateX(-30%);
+    width: 20em;
+    height: 20em;
+    background-color: rgba(0, 204, 255, 0.377);
+    border-radius: .5em;
+    z-index: -1;
+}
+
+.SQ7 {
+    transform: translateY(210%) translateX(-50%) scale(2.0) rotate(45deg); 
+    z-index: -1;
+}
+
+.backgroundSQ2 {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translateX(-80%);
+    width: 30em;
+    height: 30em;
+    border-radius: .5em;
+    background-color: rgba(30, 0, 200, 0.4);
+}
+
+.backgroundSQ3 {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translateY(-50%);
+    width: 20em;
+    height: 20em;
+    border-radius: .5em;
+    background-color: rgba(107, 17, 226, 0.4);
+}
+
+.backgroundSQ4 {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: rotate(45deg) translate(-50%, 40%);
+    width: 40em;
+    height: 40em;
+    border-radius: .5em;
+    background-color: rgba(14, 209, 209, 0.411)
+}
+
+.backgroundSQ5 {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translate(-80%, 35%) rotate(45deg);
+    width: 30em;
+    height: 40em;
+    border-radius: .5em;
+    background-color: rgba(107, 17, 226, 0.4);
+}
+
+.backgroundSQ6 {
+    z-index: -1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translate(-80%, 120%) rotate(45deg);
+    width: 30em;
+    height: 30em;
+    border-radius: .5em;
+    background-color: rgba(3, 194, 153, 0.377);
+}

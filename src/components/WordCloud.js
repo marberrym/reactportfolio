@@ -29,6 +29,7 @@ class WordCloud extends Component {
             style={{
                 fontFamily: 'sans-serif',
                 fontSize: 30,
+                textShadow: "-1px -1px rgb(0, 0, 0, .2), -1px 0px rgb(0, 0, 0, .2), 0px -1px rgb(0, 0, 0, .2), 0px 0px rgb(0, 0, 0, .2), 1px 0px rgb(0, 0, 0, .2), 0px 1px rgb(0, 0, 0, .2), 1px 1px rgb(0, 0, 0, .2)",
                 color: () => randomColor({hue: 'blue'}),
                 padding: 3
             }}

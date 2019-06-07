@@ -2,3 +2,44 @@
     width: 80%;
     margin-top: 5em;
 }
+
+.devFlex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabSection {
+    width: 80% !important;
+}
+
+.devIcon {
+    font-size: 1em; 
+    transition: 0.3s ease-in-out;
+}
+
+.iconFlex:hover .iconText {
+    font-size: .5em !important;
+    color: #8892f6
+}
+
+.iconFlex:hover .devIcon {
+    font-size: 1.5em !important;
+    color: #8892f6
+}
+
+.iconFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .5em;
+    height: 2em;
+}
+
+.iconText {
+    font-size: .5em !important;
+    transition: 0.3s ease-in-out;
+}
